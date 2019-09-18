@@ -1,4 +1,5 @@
 
+
 # anki_ocr_gui
 
 anki_ocr_gui is a PyQt5 gui for the CLI tool [anki_ocr](https://github.com/madelesi/anki_ocr/)
@@ -7,7 +8,7 @@ anki_ocr is a python program that converts physical flashcards into digital [Ank
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install anki_ocr.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install anki_ocr_gui.
 
 ```bash
 pip install anki_ocr_gui
@@ -15,6 +16,7 @@ pip install anki_ocr_gui
 
 ## Usage
 To use anki_ocr, you will need a directory with images of your flashcards. The program will automatically sort the images by date, so you should **capture the question followed by its answer, and ensure the number of images is even**
+(i.e question1>answer1>question2>answer2 and so on)
 
 ```bash
 anki_ocr_gui
