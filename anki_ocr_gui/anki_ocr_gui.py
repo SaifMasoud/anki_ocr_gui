@@ -31,7 +31,6 @@ class Window(QWidget):
         self.layout.addWidget(self.run_btn)
         self.layout.addWidget(self.cwd_label)
 
-
         # Connecting the buttons to their functions
         self.img_dir_btn.clicked.connect(self.on_img_dir_btn)
         self.run_btn.clicked.connect(self.on_run_btn)
@@ -57,10 +56,9 @@ class Window(QWidget):
                 ocr_option = True
             anki_ocr.main(img_directory, deck_name, ocr=ocr_option)
 
-def main():
+
+if __name__ == '__main__':
+
     app = QApplication(sys.argv)
     Window = Window()
     app.exec_()
-
-if __name__ == '__main__':
-    main()

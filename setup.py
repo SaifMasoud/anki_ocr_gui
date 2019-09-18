@@ -19,7 +19,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    entry_points ={
+    entry_points={
         'console_scripts': [
             'anki_ocr_gui = anki_ocr_gui.cli_entry:main',
         ]
