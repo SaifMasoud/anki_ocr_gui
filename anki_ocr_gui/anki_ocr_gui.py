@@ -57,9 +57,10 @@ class Window(QWidget):
                 ocr_option = True
             anki_ocr.main(img_directory, deck_name, ocr=ocr_option)
 
-
-if __name__ == '__main__':
-
+def main():
     app = QApplication(sys.argv)
     Window = Window()
     app.exec_()
+
+if __name__ == '__main__':
+    main()
